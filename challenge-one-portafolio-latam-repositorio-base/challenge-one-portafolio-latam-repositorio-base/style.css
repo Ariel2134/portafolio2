@@ -1,0 +1,301 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+section.menu{
+    align-items: center;
+    background: #f9f9f91e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__title{
+    display: flex; 
+    
+}
+
+.menu__list{
+    display: flex;
+    margin-right: 1.25rem;
+}
+
+.menu__list__item{
+    margin-right: 1.25rem;
+    justify-content: space-between;
+}
+
+.menu__list__item a:hover {
+    text-decoration: underline;  
+    text-decoration-color: rgba(58, 11, 230, 0.644);    
+}
+
+.menu__list__item__contato {
+    color: #333333;
+    display: flex;
+    font-weight: bold;
+    justify-content: right;
+    margin-right: 1.50rem;
+}
+
+.menu__list__item__contato a:hover {
+    text-decoration: underline;
+    justify-content: space-between;
+} 
+
+
+/*Sección Title*/
+
+.title__profile {
+    background-color: rgb(209, 248, 212);
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 130px;
+}
+
+.title__bio {
+    font-size: 40px;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+.title__subsection {
+    justify-content: right;
+    margin-left: 2rem;    
+}
+
+.title__network { 
+    align-items: center;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.title__network__item :hover {
+    background: rgb(248, 247, 206);
+}
+
+/*Seccion Sobre mi*/
+
+.about__container {
+    background: #e7f5f3;
+}
+
+/*Sección Skills*/
+
+.skills {
+    text-align: center;
+}
+
+.skills__line {
+    align-items: center;
+    display: flex;  
+    margin-right: 1.25rem;
+}
+
+/*Sección Hobbies*/
+
+.hobbies {
+    text-align: center;
+}
+
+.hobbies__line {
+    align-items: center;
+    display: flex;
+}
+
+/* Experiencia Académica*/
+
+.academic {
+    text-align: center;
+    
+   
+}
+
+.academic__courses {
+    align-items: center;
+    display: flex;
+    background: #e7f5f3;
+}
+
+/* experiencia*/
+
+.experience { 
+    text-align: center;
+}
+
+.experience__info_1 {
+    text-align: right; 
+    float: left;   
+}
+
+.experience__img_1 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 550px;
+}
+
+.experience__info_2 {
+    text-align: left; 
+    float: right;  
+}
+
+.experience__img_2 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: right;
+    width: 550px;
+}
+
+.experience__info-container_1 {
+    text-align: right; 
+    float: left; 
+}
+
+.experience__img_3 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 550px;
+}
+
+.experience__info-container_2 {
+    text-align: left; 
+    float: right; 
+}
+
+.experience__img_4 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: right;
+    width: 550px;
+}
+
+
+
+
+ 
+.experiencia__botao--repo {
+    background-color: #f0f4f7;
+    
+}
+
+.experience__botao--demo {
+    background-color: rgb(65, 147, 194);
+}
+
+.experience__info_2 {
+    text-align: left;   
+    
+}
+
+.experience__info-container_1 {
+    text-align: right;
+}
+
+.experience__info-container_2 {
+    text-align: left;
+}
+
+
+    
+
+
+/*Contacto*/
+
+.formcontato__contacto {
+    background: #e8f0f3;
+}
+
+
+.formcontato__img {
+
+    padding: 6px;
+    margin: 2px;
+    float: left;
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 400px;
+}
+
+.formcontato__title {
+    text-align: left;
+    margin-top: 1500px;
+}
+
+.formcontato__subtext {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.formcontato__input {
+    display: flex;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.formcontato__textarea {
+    display: flex;
+    font-size: 24.5px;
+    margin-top: 10px;
+}
+
+.formcontato__botao {
+    background-color: rgb(65, 147, 194);
+    display: flex;
+    font-size: 120%;
+    margin-top: 10px;
+}
+
+
+/*footeer*/
+
+.footer__rodape {
+    margin-top: 60px;
+}
+

@@ -1,0 +1,65 @@
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+   
+    /* Menú */
+   
+    /*title*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+    }
+    
+
+
+
+    /*Mobile*/
+    @media (max-width: 530px) {
+    
+    /*Menu*/
+    section.menu {
+    background: #e9ec08;
+    }
+
+
+
+    .menu__list__item {
+        
+       
+    }
+
+    .menu__list__item a:hover {
+        text-decoration: underline;  
+        text-decoration-color: rgba(58, 11, 230, 0.644);    
+    }
+
+    .menu__list__item__contacto {
+        display: none;
+    }
+
+    /*Titulo*/
+    
+    /*Sección sobre mi*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+     
+    /*Formación Académica*/
+    
+    /*Experiencia Profesional*/
+    
+     /*Contacto*/
+    
+    /*Footer*/
+    
+    }
